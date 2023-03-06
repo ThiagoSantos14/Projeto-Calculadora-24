@@ -1,0 +1,194 @@
+body {
+    background: rgb(189, 184, 184);
+}
+
+button {
+    padding: 20px;
+    background: rgb(32, 30, 30);
+    color: white;
+    width: 55px;
+}
+
+button:hover {
+    background: rgb(160, 156, 156);
+}
+
+.container {
+    background: rgb(48, 38, 38);
+    padding-left: 52px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    margin-top: 10%;
+    margin-left: 35%;
+    margin-right: 43%;
+    border-radius: 30px;
+    box-shadow: 15px 15px 5px black;
+}
+
+.container::before, .container::after {
+    content: '';
+    display: table;
+}
+
+.container::after {
+    clear: both;
+}
+
+input[type="text"] {
+    width: 212px;
+    height: 50px;
+    background: gray;
+}
+
+.parte-1 {
+    float: left;
+}
+
+.parte-2 {
+    float: left;
+}
+
+.parte-3 {
+    float: left;
+}
+
+.operadores-1 {
+    float: left;
+}
+
+@media (min-width: 360px) {
+    .container {
+        margin-left: 8%;
+        padding-left: 50px;
+        padding-right: 50px;
+        float: left;
+    }
+
+    .operadores-1 {
+        margin-left: 164px;
+        margin-top: -298px;
+    }
+
+    input[type="text"] {
+        margin-bottom: 3px;
+        margin-left: -2px;
+    }
+}
+
+@media (min-width: 450px) {
+    .container {
+        margin-left: 40px;
+        margin-right: 70px;
+    }
+
+    input[type="text"] {
+        margin-left: -2px;
+        margin-bottom: 2px;
+    }
+}
+
+@media (min-width: 600px) {
+    .container {
+        margin-right: 160px;
+        margin-left: 100px;
+    }
+}
+
+@media (min-width: 768px) {
+    .container {
+        margin-right: 230px;
+        margin-left: 200px;
+    }
+}
+
+@media (min-width: 800px) {
+    .container {
+        margin-right: 260px;
+    }
+}
+
+@media (min-width: 1024px) {
+    .container {
+        margin-right: 800px;
+        margin-left: 300px;
+    }
+
+    button {
+        font-size: 30px;
+        padding: 10px;
+    }
+
+    .operadores-1 {
+        margin-top: -292px;
+    }
+}
+
+@media (min-width: 1280px) {
+    .container {
+        margin-right: 600px;
+        margin-left: 450px;
+    }
+    
+    .operadores-1 {
+        margin-top: -300px;
+    }
+}
+
+@media (min-width: 1366px) {
+    .container {
+        margin-right: 600px;
+    }
+
+    .operadores-1 {
+        margin-top: -292px;
+    }
+}
+
+@media (min-width: 1440px) {
+    .container {
+        margin-right: 700px;
+        margin-left: 500px;
+    }
+}
+
+@media (min-width: 1800px) {
+    .container {
+        margin-left: 800px;
+    }
+
+    .operadores-1 {
+    margin-top: -300px;
+}
+}
+
+@media (min-width: 3840px) {
+    .container {
+        margin-left: 1300px;
+        padding-right: 100px;
+        padding-left: 100px;
+        padding-top: 100px;
+        padding-bottom: 100px;
+    }
+
+    button {
+        width: 300px;
+        height: 200px;
+        font-size: 100px;
+    }
+
+    input[type="text"] {
+        width: 1190px;
+        height: 300px;
+    }
+
+    .operadores-1 {
+        margin-left: 900px;
+        margin-top: -1000px;
+    }
+}
+
+
+
+
+
+
